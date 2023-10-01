@@ -12,21 +12,21 @@ let langCode = prompt("Enter a language code")
 
 
 if (langCode == 'es') {
-    console.log('Hola mundo')
+    console.log('Hello world translated in Spanish is: Hola mundo')
 }
 else if (langCode == 'de') {
-    console.log('Hallo Welt')
+    console.log('Hello world translated in German is: Hallo Welt')
 
 
 } else if (langCode == 'en') {
-    console.log('Hello World')
+    console.log('Hello world translated in English is: Hello World')
 
 
 } else if (langCode == 'fr' ){
-    console.log('Bonjour le monde')
+    console.log('Hello world translated in French is: Bonjour le monde')
 
 
 } else {
-    console.log('Hello World')
+    console.log('Hello world translated in English is: Hello World')
 
 }
